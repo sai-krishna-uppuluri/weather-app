@@ -1,5 +1,5 @@
 function showRecentWeatherCards(searchedLocationsList) {
-  console.log("reached showing:", searchedLocationsList);
+  // console.log("reached showing:", searchedLocationsList);
 
   let weatherCardContainer = document.createElement("div");
   let weatherCardList = document.createElement("ul");

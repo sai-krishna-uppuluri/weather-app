@@ -9,6 +9,21 @@ let searchBtnElement = document.getElementById("searchBtn");
 
 let searchedLocationsList = getFromLocalStorage();
 
+// getCurrentPosition();
+
+/* function getCurrentPosition() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition((position) => {
+      const latitude = position.coords.latitude;
+      const longitude = position.coords.longitude;
+
+      console.log(latitude, longitude);
+    });
+  }
+
+  // return latitude, longitude;
+} */
+
 if (searchedLocationsList.length > 0) {
   showRecentWeatherCards(searchedLocationsList);
 }
