@@ -30,13 +30,16 @@ body {
 .search-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 100%;
   max-width: 500px;
   margin-bottom: 20px;
 }
 
 .search-input-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .search-location-input {
@@ -124,16 +127,15 @@ body {
 .drop-down-container {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 0px;
   width: 100%;
 }
 
 .select-dropdown {
-  width: 90%;
+  width: 100%;
   max-width: 400px;
   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: none;
   font-size: 16px;
   background-color: #ffffff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -148,4 +150,31 @@ body {
 .select-dropdown option {
   padding: 10px;
   font-size: 16px;
+}
+
+.weather-report-container {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.weather-table-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.weather-report-headings {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15px;
+}
+
+.weatherReportText {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15px;
 }
